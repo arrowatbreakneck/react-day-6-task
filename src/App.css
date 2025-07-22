@@ -1,0 +1,145 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navit{
+  position: fixed;
+  top:0;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+  width: 60%;
+  /* background-color: aqua; */
+  /* width: 100%; */
+  
+  
+}
+.crds img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.crds .card-title{
+  font-size: x-large;
+  color: rgb(167, 227, 167);
+  font-family: fantasy;
+}
+.crds .card-text{
+  font-family: fantasy;
+  color:rgb(124, 184, 186);
+}
+.nav-link{
+  color:rgb(67, 165, 198);
+  padding: 25px;
+  font:bold;
+  justify-content: center;
+  font-size: xx-large;
+
+}
+
+.crds{ 
+ 
+}
+.row{
+  display: flex;
+}
+.datacnt img{
+  width:55%;
+  height:35%;
+}
+.mchln img{
+  width:55%;
+  height:35%;
+  object-fit: contain;
+}
+
+.mern .card-title{
+  font-size: xx-large;
+  font-family:fantasy;
+  font-style:oblique;
+  color: rgb(174, 65, 174);
+  text-shadow: 4px 4px 6px rgb(57, 57, 144)  ;
+  text-decoration: underline greenyellow;
+}
+
+span{
+  color:red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+.mern .card-text{
+  font-size:larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(173, 245, 65);
+  text-shadow: 4px 4px 6px rgb(57, 57, 144)  ;
+
+
+}
+.datacnt .card-title{
+  font-size: xx-large;
+  font-family: fantasy;
+  color:rgb(97, 192, 121);
+  text-shadow: 2px 2px 4px rgb(105, 105, 192);
+  text-decoration: underline rebeccapurple;
+}
+
+.datacnt .card-text{
+  font-size: large;
+  font-family: cursive;
+  color:rgb(166, 45, 166);
+  text-shadow: 1px 1px 1px rgb(149, 245, 4);
+}
+.mchln .card-title{
+  font-size: xx-large;
+  font-family: fantasy;
+  color:rgb(229, 218, 218);
+  text-shadow: 2px 2px 4px rgb(105, 105, 192);
+  text-decoration: underline rebeccapurple;
+}
+
+.mchln .card-text{
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  color: azure;
+  text-shadow: 2px 2px 4px rgb(105, 105, 192) ;
+}
